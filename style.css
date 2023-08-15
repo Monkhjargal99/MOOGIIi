@@ -1,0 +1,40 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial;
+  background-image: url(Photo/pexels-alex-andrews-821644.jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  color: white;
+}
+.Letter {
+  display: flex;
+  justify-content: space-between;
+}
+.link {
+  display: flex;
+}
+.link h2 {
+  margin: 35px;
+}
+.link h2:hover {
+  color: purple;
+  transition: 1.5s;
+}
+.title2 {
+  font-size: 30px;
+}
+.logo {
+  border-radius: 75px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  border-radius: 90px;
+  margin-right: 10%;
+}
+.logo h1 {
+  font-size: 40px;
+}
